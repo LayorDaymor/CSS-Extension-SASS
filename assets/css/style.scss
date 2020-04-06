@@ -1,0 +1,46 @@
+@import "veriabels";
+body,html{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+section{
+    width: 100%;
+    height: 100%;
+
+    ul{
+        display: flex;
+        justify-content: center;
+        font-size: 10vw;
+        list-style: none;
+        align-items: flex-start;
+        
+    }
+    .la-twitter{
+        color:$twitter-color;
+    }
+    .la-facebook-f{
+        color:$facebook-color;
+    }
+    .la-vine{
+        color:$vine-color;
+    }
+    .la-snapchat{
+        color:$snapchat-color;
+    }
+    .la-amazon{
+        color:$amazon-color;
+    }
+    .la-android{
+        color:$android-color;
+    }
+    .la-github{
+        color:$github-color;
+    }
+    .la-js-square{
+        color:$java-color;
+    }
+  
+}
